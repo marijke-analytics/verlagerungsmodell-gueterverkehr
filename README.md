@@ -62,6 +62,11 @@ Dokumentation:
 - [Datenmodell](dashboard/docs/data_model.md)
 
 ---
+##  Technologien:
+- Python, Pandas, GeoPandas
+- scikit-learn, PyTorch
+- Streamlit Dashboard
+- GitHub Actions
 
 ## 📁 Repository-Struktur
 
@@ -74,8 +79,4 @@ verlagerungsmodell_gueterverkehr/
 ├── dashboard/           # Power BI Dashboard + Dokumentation
 └── docs/                # Data Dictionaries + Projektbeschreibung
 
-# Technologien:
-- Python, Pandas, GeoPandas
-- scikit-learn, PyTorch
-- Streamlit Dashboard
-- GitHub Actions
+
