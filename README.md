@@ -11,22 +11,68 @@ Dieses Projekt untersucht, wie sich der Güterverkehr in Deutschland zwischen St
 - Simulation von Störungsszenarien
 - Interaktive Visualisierung (Dashboard)
 
-# Datenquellen:
-- BASt Verkehrsmengendaten (Straße)
-  Die Rohdaten stammen aus den „Richtungsaggregierten Rohdaten der   automatischen 
-  Dauerzählstellen“ der BASt (BAB (Autobahnen) / Jahr   2025).
-  Download: https://www.bast.de/DE/Publikationen/Daten/Verkehrstechnik/DZ-Richtung.html
-- Deutsche Bahn Open Data (Schiene)
-- Pegel Online (Wasserstraße)
-- DWD Wetterdaten
-- OpenStreetMap / OpenRailwayMap
+## 🚚 Datenquellen
 
-## 📘 Data Dictionary
+Das Projekt nutzt mehrere offene Datenquellen:
 
-Die Beschreibung aller Spalten der BASt‑Rohdaten und Metadaten befindet sich im Ordner [`docs/`](docs/).
+- **BASt Verkehrsmengendaten (Straße)**  
+  Richtungsaggregierte Rohdaten der automatischen Dauerzählstellen (Autobahnen, 2025).  
+  Quelle: https://www.bast.de/DE/Publikationen/Daten/Verkehrstechnik/DZ-Richtung.html
 
-- [Data Dictionary – Rohdaten](docs/data_dictionary_raw.md)
-- [Data Dictionary – Metadaten](docs/data_dictionary_meta.md)
+- **Deutsche Bahn Open Data (Schiene)**  
+  Betriebsstellen, Zugbewegungen, Verspätungsdaten.
+
+- **Pegel Online (Wasserstraße)**  
+  Wasserstände, Trends, Pegelstandorte.
+
+- **DWD Wetterdaten**  
+  Temperatur, Niederschlag, Wind, Sonnenscheindauer.
+
+- **OpenStreetMap / OpenRailwayMap**  
+  Straßennetz, Schienennetz, Infrastrukturattribute.
+
+---
+
+## 📘 Dokumentation
+
+Alle Data Dictionaries und weiterführenden Dokumente befinden sich im Ordner [`docs/`](docs/).
+
+### Datensätze
+- [BASt Rohdaten 2025](docs/data/bast_raw_2025.md)
+- [BASt Metadaten 2025](docs/data/bast_meta_2025.md)
+- [Deutsche Bahn](docs/data/db_rail.md)
+- [Pegel Online](docs/data/pegel_online.md)
+- [DWD Wetter](docs/data/dwd_weather.md)
+- [OSM Netzwerkdaten](docs/data/osm_network.md)
+
+### Projektstruktur
+- [Projektarchitektur](docs/project/architecture.md)
+- [Preprocessing](docs/project/preprocessing.md)
+- [Modellierung](docs/project/modeling.md)
+
+---
+
+## 📊 Dashboard
+
+Das interaktive Dashboard (Power BI) befindet sich im Ordner [`dashboard/`](dashboard/).
+
+Dokumentation:
+- [Dashboard Beschreibung](dashboard/docs/dashboard_description.md)
+- [KPI Definitionen](dashboard/docs/kpi_definitions.md)
+- [Datenmodell](dashboard/docs/data_model.md)
+
+---
+
+## 📁 Repository-Struktur
+
+```plaintext
+verlagerungsmodell_gueterverkehr/
+│
+├── data/                # Roh-, Zwischen- und verarbeitete Daten
+├── notebooks/           # Jupyter Notebooks
+├── src/                 # Python-Module (Daten, Preprocessing, Modellierung)
+├── dashboard/           # Power BI Dashboard + Dokumentation
+└── docs/                # Data Dictionaries + Projektbeschreibung
 
 # Technologien:
 - Python, Pandas, GeoPandas
