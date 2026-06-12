@@ -13,6 +13,7 @@ Ziele:
 
 Datenquellen:
 - BASt Verkehrsmengendaten (Straße)
+  (https://www.bast.de/DE/Publikationen/Daten/Verkehrstechnik/DZ-Richtung.html?nn=427910) - Jahr: 2025
 - Deutsche Bahn Open Data (Schiene)
 - Pegel Online (Wasserstraße)
 - DWD Wetterdaten
