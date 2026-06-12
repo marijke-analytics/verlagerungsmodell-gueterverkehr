@@ -3,7 +3,7 @@ Open-Data-Projekt zur Analyse von Verkehrsverlagerungen im multimodalen Güterve
 
 Dieses Projekt untersucht, wie sich der Güterverkehr in Deutschland zwischen Straße, Schiene und Wasserstraße verlagert, wenn Störungen auftreten (z.B. Baustellen, Hochwasser, Streckensperrungen)
 
-# Ziele:
+## Ziele:
 - Aufbau eines multimodalen Verkehrsnetzmodells
 - Analyse heterogener Open-Data-Quellen
 - Modellierung von Verkehrsverlagerungen
