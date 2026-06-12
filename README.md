@@ -14,7 +14,7 @@ Ziele:
 Datenquellen:
 - BASt Verkehrsmengendaten (Straße)
   Die Rohdaten stammen aus den „Richtungsaggregierten Rohdaten der automatischen 
-  Dauerzählstellen“ der BASt (Jahr   2025).
+  Dauerzählstellen“ der BASt (BAB (Autobahnen) / Jahr   2025).
   Download: https://www.bast.de/DE/Publikationen/Daten/Verkehrstechnik/DZ-Richtung.html
 - Deutsche Bahn Open Data (Schiene)
 - Pegel Online (Wasserstraße)
