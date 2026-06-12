@@ -3,7 +3,7 @@ Open-Data-Projekt zur Analyse von Verkehrsverlagerungen im multimodalen Güterve
 
 Dieses Projekt untersucht, wie sich der Güterverkehr in Deutschland zwischen Straße, Schiene und Wasserstraße verlagert, wenn Störungen auftreten (z.B. Baustellen, Hochwasser, Streckensperrungen)
 
-Ziele:
+# Ziele:
 - Aufbau eines multimodalen Verkehrsnetzmodells
 - Analyse heterogener Open-Data-Quellen
 - Modellierung von Verkehrsverlagerungen
@@ -11,9 +11,9 @@ Ziele:
 - Simulation von Störungsszenarien
 - Interaktive Visualisierung (Dashboard)
 
-Datenquellen:
+# Datenquellen:
 - BASt Verkehrsmengendaten (Straße)
-  Die Rohdaten stammen aus den „Richtungsaggregierten Rohdaten der automatischen 
+  Die Rohdaten stammen aus den „Richtungsaggregierten Rohdaten der   automatischen 
   Dauerzählstellen“ der BASt (BAB (Autobahnen) / Jahr   2025).
   Download: https://www.bast.de/DE/Publikationen/Daten/Verkehrstechnik/DZ-Richtung.html
 - Deutsche Bahn Open Data (Schiene)
@@ -21,7 +21,14 @@ Datenquellen:
 - DWD Wetterdaten
 - OpenStreetMap / OpenRailwayMap
 
-Technologien:
+## 📘 Data Dictionary
+
+Die Beschreibung aller Spalten der BASt‑Rohdaten und Metadaten befindet sich im Ordner [`docs/`](docs/).
+
+- [Data Dictionary – Rohdaten](docs/data_dictionary_raw.md)
+- [Data Dictionary – Metadaten](docs/data_dictionary_meta.md)
+
+# Technologien:
 - Python, Pandas, GeoPandas
 - scikit-learn, PyTorch
 - Streamlit Dashboard
